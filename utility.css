@@ -1,0 +1,53 @@
+.border{
+    /* border: 2px solid red; */
+    margin: 3px;
+    /* padding: 21px ; */
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 5px;
+}
+
+.m-1{
+    margin: 8px;
+}
+.p-1{
+    padding: 7px;
+}
+
+
+/* For Webkit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666; /* Color of the thumb */
+    border-radius: 6px; /* Rounded corners */
+}
